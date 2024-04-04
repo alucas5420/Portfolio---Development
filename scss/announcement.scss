@@ -1,0 +1,41 @@
+/* Setting up the top area with the logo and search bar for the website */
+
+
+.announcement {
+    height: 80px;
+    background-color: white;
+    display: flex;
+
+.words {
+margin: auto;
+text-transform: uppercase;
+
+.red-box {
+    background-color: #3665f3;
+    padding: 6px 19px;
+    text-decoration: none;
+    color: white;
+}
+}
+
+.words2 {
+    margin: auto;
+    text-transform: uppercase;
+    
+    .red-box {
+        background-color: #3665f3;
+        padding: 6px 19px;
+        text-decoration: none;
+        color: white;
+    }
+    }
+
+.login {
+    align-self: center;
+    margin-right: 20px;
+
+    .fa-user {
+        margin-left: 10px;
+    }
+}
+}

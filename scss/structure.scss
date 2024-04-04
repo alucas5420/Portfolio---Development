@@ -1,0 +1,95 @@
+/* Setting up the structure for the website */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  background-color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+.site-wrapper {
+  max-width: 1280px;
+  min-height: 400px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.large {
+  height: 1800px;
+  background-color: white;
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+  .words5 {
+    margin: auto;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+  }
+
+  .red-box {
+    background-color: black;
+    padding: 6px 10px;
+    text-decoration: none;
+    color: white;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.images2 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+}
+}
+.grey-box {
+  background-color: gray;
+    padding: 6px 10px;
+    text-decoration: none;
+    color: white;
+        text-align: center;
+        align-items: center;
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.images3 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+}
+}
+}

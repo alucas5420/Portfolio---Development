@@ -1,0 +1,30 @@
+/* Setting up the navigation bar and the banners */
+
+.search {
+    height: 60px;
+    background-color: black;
+    display: flex;
+
+    .words4 {
+        margin: auto;
+        color: white;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+    
+    .images2 {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 90px;
+      
+        .column {
+          flex: 33.33%;
+          padding: 5px;
+      }
+      }
+
+}

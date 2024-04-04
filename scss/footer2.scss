@@ -1,0 +1,21 @@
+/* Setting up the footer for the website */
+
+.footer2 {
+    height: 30px;
+   background-color: white;
+    display: flex;
+    margin: auto;
+
+    .words3 {
+        margin: auto;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
