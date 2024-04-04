@@ -33,7 +33,7 @@ p {
 /* Setting up the main area of the website */
 
 .large {
-  height: 1800px;
+  height: 2500px;
   background-color: white;
 }
 .large .center {
@@ -48,6 +48,10 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+}
+.large .words5  a {
+ text-decoration: none;
+ color: white;
 }
 .large .red-box {
   background-color: black;
@@ -64,7 +68,7 @@ p {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 700px;
+  width: 500px;
 }
 .large .images2 .column {
   flex: 33.33%;
@@ -75,13 +79,68 @@ p {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  width: 700px;
-  background-color: red;
+  width: 780px;
+  height: 200px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
 }
 .large .images4 .column2 {
   flex: 33.33%;
   padding: 5px;
-  width: 50%;
+  width: 100%;
+}
+.large .images5 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 70px;
+  background-color: black;
+}
+.large .images5 .column3 {
+  flex: 33.33%;
+  padding: 5px;
+  width: 100%;
+}
+.large .images6 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  height: 70px;
+  background-color: black;
+}
+.large .images6 .column4 {
+  flex: 33.33%;
+  padding: 5px;
+  width: 100%;
+}
+.large .images7 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 780px;
+  height: 200px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+}
+.large .images7 .column3 {
+  flex: 33.33%;
+  padding: 5px;
+  width: 100%;
+}
+.large .images8 {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+.large .images8 .column {
+  flex: 33.33%;
+  padding: 5px;
+  width: 100%;
 }
 .large .grey-box {
   background-color: gray;
